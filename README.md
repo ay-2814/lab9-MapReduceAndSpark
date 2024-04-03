@@ -78,7 +78,7 @@ On a MAC, if you receive the error message
 "No Matching Host Key Type Found"
 then try the following (replace mm6 with your own ID):
 ```
-ssh -oHostKeyAlgorithms=+ssh-rsa mm6@172.19.10.29
+ssh -oHostKeyAlgorithms=+ssh-rsa mm6@heinz-jumbo.heinz.cmu.local
 ```
 
 You must change your password now. Use the "passwd" command. PLEASE remember this
