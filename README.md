@@ -157,7 +157,7 @@ hadoop dfs -ls /user/mm6/input
 9. Run word count using MapReduce:
 
 ```
-hadoop jar /usr/local/hadoop/hadoop-examples-*.jar wordcount /user/mm6/input  /user/mm6/output
+hadoop jar /usr/local/hadoop/hadoop-examples-*.jar wordcount /user/mm6/input/test  /user/mm6/output
 
 ```
 Note: we are counting all of the words in all of the files in the input directory.
